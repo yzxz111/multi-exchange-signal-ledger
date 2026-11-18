@@ -1,0 +1,13 @@
+[
+  {"type":"signal.active","id":"demo-001","symbol":"ALPHAUSDT","direction":"long","source":"趋势信号","entry":"10","stop":"9","target":"12","first_qty":"1"},
+  {"type":"signal.active","id":"demo-001","symbol":"ALPHAUSDT","direction":"long","source":"趋势信号","entry":"10","stop":"9","target":"12","first_qty":"1"},
+  {"type":"signal.active","id":"demo-002","symbol":"BETAUSDT","direction":"short","source":"波动信号","entry":"25","stop":"27","target":"22","first_qty":"1"},
+  {"type":"signal.active","id":"demo-003","symbol":"GAMMAUSDT","direction":"long","source":"成交量信号","entry":"2","stop":"1.8","target":"2.2","first_qty":"0.5"},
+  {"type":"signal.ended","id":"demo-001","end_reason":"target","final_price":"10.6","profit_percent":"6","text":"合成获利结束事件"},
+  {"type":"signal.active","id":"demo-004","symbol":"DELTAUSDT","direction":"long","source":"事件信号","entry":"5","stop":"4.5","target":"6","first_qty":"1"},
+  {"type":"signal.ended","id":"demo-004","end_reason":"stop","final_price":"4.8","profit_percent":"-4","text":"合成亏损结束事件"},
+  {"type":"signal.active","id":"demo-005","symbol":"EPSILONUSDT","direction":"short","source":"资金流信号","entry":"20","stop":"22","target":"18","first_qty":"1"},
+  {"type":"signal.ended","id":"demo-005","end_reason":"target","final_price":"19.8","profit_percent":"1","text":"合成获利结束事件"},
+  {"type":"signal.active","id":"demo-006","symbol":"ZETAUSDT","direction":"long","source":"趋势信号","entry":"4","stop":"3.5","target":"5","first_qty":"1"},
+  {"type":"signal.ended","id":"demo-006","end_reason":"stop","final_price":"3.92","profit_percent":"-2","text":"合成亏损结束事件"}
+]
