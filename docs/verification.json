@@ -1,0 +1,79 @@
+{
+  "date": "2026-11-18",
+  "python": "3.12.10",
+  "platform": "Windows",
+  "public_tests": {
+    "total": 61,
+    "passed": 61,
+    "failed": 0
+  },
+  "private_full_regression": {
+    "total": 120,
+    "passed": 120,
+    "failed": 0,
+    "raw_private_cases_in_public_repository": false
+  },
+  "isolation": {
+    "outbound_network_denied_during_tests": true,
+    "production_source_writes_denied_during_full_regression": true,
+    "production_source_and_data_unchanged_before_handoff_update": true
+  },
+  "dependencies": {
+    "annotated-doc": "0.0.7",
+    "annotated-types": "0.8.0",
+    "anyio": "4.16.0",
+    "certifi": "2026.10.23",
+    "click": "8.5.1",
+    "fastapi": "0.162.0",
+    "h11": "0.16.0",
+    "httpcore": "1.0.9",
+    "httpx": "0.28.1",
+    "idna": "3.20",
+    "opentelemetry-api": "1.45.2",
+    "pydantic": "2.14.3",
+    "pydantic_core": "2.50.4",
+    "starlette": "1.10.0",
+    "typing-inspection": "0.4.5",
+    "typing_extensions": "4.16.0",
+    "uvicorn": "0.54.0",
+    "websockets": "17.3"
+  },
+  "package_install": {
+    "wheel_built": true,
+    "local_install": true,
+    "pip_check_passed": true
+  },
+  "browser": {
+    "desktop": {
+      "replay_count": 2,
+      "stats": {
+        "holding": 2,
+        "closed": 4,
+        "realized": "0.5206",
+        "fees": "0.5694",
+        "floating": "2.500"
+      },
+      "order_count": 10,
+      "bitgetHistory": "ZETAUSDT 多\tBitget\t趋势信号\t25.000\t3.920\t0.1188\t-2.1188",
+      "pageErrors": [],
+      "externalRequests": []
+    },
+    "mobile": {
+      "width": 390,
+      "overflow": false,
+      "chartPoints": 5,
+      "pageErrors": []
+    }
+  },
+  "scan": {
+    "rules_result": "passed",
+    "findings": 0,
+    "limitations": "规则扫描不等于完整安全认证"
+  },
+  "github": {
+    "repository": "https://github.com/yzxz111/multi-exchange-signal-ledger",
+    "ci_result_source": "以仓库 Actions 页面实际结果为准",
+    "local_checks_do_not_claim_ci_success": true
+  },
+  "license": "尚未选择开源许可证"
+}
