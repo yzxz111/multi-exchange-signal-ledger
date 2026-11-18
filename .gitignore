@@ -1,0 +1,37 @@
+# 虚拟环境与 Python 生成物
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 私密配置、真实流水、数据库与备份
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.db
+*.db-*
+*.sqlite*
+*.jsonl
+*.log
+data/
+.demo-data/
+backups/
+*.zip
+*.7z
+*.tar*
+
+# 本机编辑器和系统文件
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
